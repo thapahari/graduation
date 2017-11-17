@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- 33 KB -->
+
+    <!-- fotorama.css & fotorama.js. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
+
+    <!-- 2. Add images to <div class="fotorama"></div>. -->
 
     <meta charset="Uttf-8">
     <title>Top | Graduation</title>
@@ -14,14 +25,18 @@
         <h1>IMAGE</h1>
         <div class="page_tittle"></div>
     </header>
-    <div class="home-slide">
     <div class="contents">
+        <div class="fotorama" data-autoplay="100">
+            <img src="image/hari1.jpg">
+            <img src="image/himal.jpeg">
+            <img src="image/buddha.jpg">
+            <img src="image/palpa.jpg">
 
-           <img src="image/image/hari1.jpg" class="home">
-           <img src="image/imagebuddha.jpg" class="home">
-           <img src="image/">
-     </div>
+        </div>
+
     </div>
-   
-    </body>
-    </html>
+    </div>
+
+</body>
+
+</html>
